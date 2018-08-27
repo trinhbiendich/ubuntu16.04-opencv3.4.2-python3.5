@@ -2,11 +2,17 @@
 
 Usage:
 ## To build : 
-    `docker build -t opencv-ubuntu16 .`
+```script
+    docker build -t opencv-ubuntu16 .
+```
 ## To run :
-    `docker run -it opencv-ubuntu16 python3.5`
+```script
+    docker run -it opencv-ubuntu16 python3.5
+````
 ## To use with ubuntu :
-    `docker run -it opencv-ubuntu16`
+```script
+    docker run -it opencv-ubuntu16
+```
 
 List of available docker tags:
 - `opencv-3.4.2`
